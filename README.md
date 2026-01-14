@@ -3,7 +3,7 @@ import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 
-TOKEN = os.environ.get('BOT_TOKEN')
+TOKEN = os.environ.get('8439676471:AAHX65e07XNLqMOsT0g5AYCPhFGh7GehKSc')
 
 # Datei zum Speichern der Weiterleitungen
 CONFIG_FILE = 'forward_config.json'
